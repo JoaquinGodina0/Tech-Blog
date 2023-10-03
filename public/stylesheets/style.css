@@ -8,34 +8,36 @@ html {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    color: #333;
-    background: #f5f5f5;
+    color: #6b2323;
+    background: #726734;
 }
 
 main,
 .site-name {
-    background-color: #f5f5f5;
+    background-color: #ad9630;
 }
 
 a,
 .btn-no-style,
 #comment-subtitle {
-    color: #00b8d9;
+    color: #444d23;
+    margin-left: 15px;
 }
 
 a:hover,
 .btn-no-style:hover {
-    color: #4dd0e1;
+    color: #637913;
 }
 
 a {
     text-decoration: none;
     font-weight: bold;
     transition: color .1s;
+    margin-top: 20px;
 }
 
 button {
-    background-color: #00b8d9;
+    background-color: #6b2323;
     border: 0;
     padding: 1%;
     color: white;
@@ -46,7 +48,7 @@ button {
 }
 
 button:hover {
-    background-color: #4dd0e1;
+    background-color: #3f1313;
 }
 
 .post-list {
@@ -69,7 +71,7 @@ input {
 textarea:focus,
 input:focus {
     outline: none;
-    border: 1px solid #4dd0e1;
+    border: 1px solid #6b2323;
 }
 
 textarea {
@@ -104,14 +106,14 @@ header,
 .site-row,
 .info-section,
 .form-heading {
-    background-color: #212121;
+    background-color: #ad9630;
 }
 
 .login-page,
 .sign-in-page,
 .new-form-page,
 .edit-form-page {
-    border: 3px solid #00b8d9;
+    border: 3px solid #6b2323;
     padding-bottom: 10px;
 }
 
@@ -135,23 +137,24 @@ header,
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    position: absolute;
+    left: 380px;
     padding: 0 1%;
 }
 
 header h1 {
     font-size: 1em;
-    color: #00b8d9;
+    color: #152427;
 }
 
 .site-row {
     display: flex;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 50px solid #000000;
     justify-content: center;
 }
 
 .site-name {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 0px 10px;
     border-style: double;
 }
@@ -170,7 +173,8 @@ main {
     font-size: 100%;
     font-weight: bold;
     transition: color .1s;
-    margin-left: 16px;
+    margin-top: 11px;
+    margin-left: 15px;
 }
 
 .btn-no-style:hover {
@@ -188,7 +192,7 @@ main {
 .post {
     margin-bottom: 2%;
     line-height: 150%;
-    border: 3px solid #00b8d9;
+    border: 3px solid #637913;
 }
 
 .post .title span {
@@ -251,7 +255,7 @@ main {
 
 .form-heading h1,
 .form-heading h2 {
-    color: #00b8d9;
+    color: #6b2323;
 }
 
 .login-form,
